@@ -1,0 +1,6 @@
+interface:
+  display_name: "teco-linkedin-engagement-assistant"
+  short_description: "分析 LinkedIn 客户帖子和公司背景，生成可手动发布的评论与后续回复"
+  default_prompt: "Use $teco-linkedin-engagement-assistant to analyze this LinkedIn post and relevant company context, then draft a recommended comment and an alternative. I will handle all likes and posting manually."
+policy:
+  allow_implicit_invocation: true
